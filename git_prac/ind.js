@@ -10,3 +10,7 @@ app.post("/v",function(request,response){
     response.send("in post")
 
 });
+
+app.put("/d",function(request,response){
+response.send("in put");
+});
